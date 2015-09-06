@@ -29,7 +29,7 @@ var SailsSerializer = DS.RESTSerializer.extend(WithLogger, {
    * @property useSailsEmberBlueprints
    * @type Boolean
    */
-  //useSailsEmberBlueprints: ENV.APP.emberDataSails.useSailsEmberBlueprints,
+  useSailsEmberBlueprints: false,//ENV.APP.emberDataSails.useSailsEmberBlueprints,
 
   /**
    * @since 0.0.11
